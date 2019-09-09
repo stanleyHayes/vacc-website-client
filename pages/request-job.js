@@ -1,13 +1,16 @@
 import React from 'react';
 import {Typography} from "@material-ui/core";
+import Layout from "../components/layout/Layout";
 
-function RequestJobPage(props){
+function RequestJobPage(props) {
     return (
-        <div>
-            <Typography variant="h1">
-                Request Job Page
-            </Typography>
-        </div>
+        <Layout>
+            <div>
+                <Typography variant="h1">
+                    Request Job Page
+                </Typography>
+            </div>
+        </Layout>
     )
 }
 
